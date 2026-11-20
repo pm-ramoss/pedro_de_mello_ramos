@@ -1,0 +1,14 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+python-dotenv>=1.0
+
+# HuggingFace (Parte 1 e Parte 2 - Q3); funciona com transformers 4.x e 5.x
+transformers>=4.40
+torch>=2.2
+sentencepiece>=0.2
+sacremoses>=0.1
+
+# LangChain (Parte 2)
+langchain-core>=0.3
+langchain-groq>=0.3
